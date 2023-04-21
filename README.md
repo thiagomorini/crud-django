@@ -1,54 +1,54 @@
 # CRUD with Django
 
-Este projeto é um CRUD simples construído com Django para demonstrar o uso básico do framework. O projeto possui um aplicativo chamado "app_edu", que permite a listagem, cadastro, alteração e exclusão de módulos, e os testes do model e das views.
+This project is a simple CRUD built with Django to demonstrate the basic usage of the framework. The project has an application called "app_edu", which allows listing, creating, updating, and deleting modules, as well as testing the model and views.
 
-## Tecnologias utilizadas
+## Used technologies
 
 - Python 3.11
 - Django 4.2
 
-## Instalação e execução
+## Installation and execution
 
-Para executar o projeto localmente, siga os seguintes passos:
+To run the project locally, follow these steps:
 
-1. Clone o repositório para o seu computador:
+1. Clone the repository to your computer:
 
 ```
 git clone https://github.com/thiagomorini/crud-django.git
 ```
 
-2. Instale as dependências do projeto.
+2. Install the project dependencies.
 
-3. Execute as migrações do banco de dados:
+3. Run the database migrations:
 
 ```
 python manage.py migrate
 ```
 
-4. Execute o servidor:
+4. Run the server:
 
 ```
 python manage.py runserver
 ```
 
-5. Acesse o projeto em seu navegador através do endereço http://127.0.0.1:8000/modules/
+5. Access the project in your browser at http://127.0.0.1:8000/modules/
 
-6. Se precisar executar os testes do modelo e das views, basta rodar o comando:
+6. If you need to run the model and views tests, simply run the command:
 
 ```
 python manage.py test app_edu
 ```
 
-## Contribuição
+## Contribution
 
-Você pode contribuir com o projeto de várias formas:
+You can contribute to the project in several ways:
 
-1. Reportando bugs e problemas no Github.
-2. Fazendo pull requests com correções e novas funcionalidades.
-3. Compartilhando o projeto e incentivando outros desenvolvedores a usá-lo.
+1. Reporting bugs and issues on Github.
+2. Making pull requests with fixes and new features.
+3. Sharing the project and encouraging other developers to use it.
 
-## Licença
-Este projeto é distribuído sob a licença MIT.
+## Licence
+This project is distributed under the MIT license.
 
-## Contato
-Você pode entrar em contato comigo sempre que tiver alguma dúvida ou sugestão de melhorias.
+## Contact
+You can contact me anytime you have questions or suggestions for improvement.
